@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <meta
+        http-equiv="content-type"
+        content="text/html;charset=UTF-8"
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:image" content="../assets/img/thanso-og.png" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="../assets/img/favicon-32x32.png"
+        />
+        <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="../assets/css/bootstrap-extended.css" rel="stylesheet" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&amp;display=swap"
+            rel="stylesheet"
+        />
+        <link href="../assets/css/app.css" rel="stylesheet" />
+        <link href="../assets/css/icons.css" rel="stylesheet" />
+        <script src="https://cdn.tailwindcss.com"></script>
+
+        <title>Thần số học GNH Nâng Cao</title>
+        <!-- Meta Pixel Code -->
+        <script>
+            !(function (f, b, e, v, n, t, s) {
+                if (f.fbq) return;
+                n = f.fbq = function () {
+                    n.callMethod
+                        ? n.callMethod.apply(n, arguments)
+                        : n.queue.push(arguments);
+                };
+                if (!f._fbq) f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = "2.0";
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s);
+            })(
+                window,
+                document,
+                "script",
+            );
+            fbq("init", "145675951761034");
+            fbq("track", "PageView");
+        </script>
+       
+        <!-- <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=AW-10880753341"
+        ></script> -->
+        <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "AW-10880753341");
+        </script>
+
+        <!-- <script>
+            !(function (f, b, e, v, n, t, s) {
+                if (f.fbq) return;
+                n = f.fbq = function () {
+                    n.callMethod
+                        ? n.callMethod.apply(n, arguments)
+                        : n.queue.push(arguments);
+                };
+                if (!f._fbq) f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = "2.0";
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s);
+            })(
+                window,
+                document,
+                "script",
+            );
+            fbq("init", "1258046418237683");
+            fbq("track", "PageView");
+        </script> -->
+        <!-- <noscript
+            ><img
+                height="1"
+                width="1"
+                style="display: none"
+                src="https://www.facebook.com/tr?id=1258046418237683&amp;ev=PageView&amp;noscript=1"
+        /></noscript> -->
+        <!-- End Meta Pixel Code -->
+    </head>
+
+    <body>
+        <div class="container mt-2">
+            <div class="card" id="componetthanso">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <!-- Form -->
+                            <div>
+                                <h6>Tra cứu Thần Số Học 3 Gốc Nâng Cao</h6>
+                                <div>
+                                    <form
+                                        action="#"
+                                        method="post"
+                                        id="thanso"
+                                    >
+                                        <div class="row mt-2">
+                                            <div class="col-lg-3 mb-2">
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="hodem"
+                                                    placeholder="Họ và Tên Đệm"
+                                                    required
+                                                    value=""
+                                                />
+                                                <div
+                                                    class="text-danger error-message"
+                                                    id="error-hodem"
+                                                ></div>
+                                            </div>
+                                            <div class="col-lg-3 mb-2">
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="ten"
+                                                    placeholder="Tên"
+                                                    required
+                                                    value=""
+                                                />
+                                                <div
+                                                    class="text-danger error-message"
+                                                    id="error-ten"
+                                                ></div>
+                                            </div>
+                                            <div class="col-lg-3 mb-2">
+                                                <div class="row">
+                                                    <div class="col-4">
+                                                        <input
+                                                            type="number"
+                                                            id="ngay"
+                                                            placeholder="Ngày"
+                                                            class="form-control"
+                                                            min="1"
+                                                            max="31"
+                                                            required
+                                                        />
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <input
+                                                            type="number"
+                                                            id="thang"
+                                                            placeholder="Tháng"
+                                                            class="form-control"
+                                                            min="1"
+                                                            max="12"
+                                                            required
+                                                        />
+                                                    </div>
+                                                    <div class="col-4">
+                                                        <input
+                                                            type="number"
+                                                            id="nam"
+                                                            placeholder="Năm"
+                                                            class="form-control"
+                                                            min="0"
+                                                            max="9999"
+                                                            required
+                                                        />
+                                                    </div>
+                                                    <div
+                                                        class="text-danger error-message"
+                                                        id="error-sinhnhat"
+                                                    ></div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-2 mb-2">
+                                                <input
+                                                    type="text"
+                                                    class="form-control"
+                                                    id="inputTenThuongGoi"
+                                                    placeholder="Tên thường gọi"
+                                                    value=""
+                                                />
+                                                <div
+                                                    class="text-danger error-message"
+                                                    id="error-tentacy"
+                                                ></div>
+                                            </div>
+                                            <div class="col-lg-1 mb-2">
+                                                <button
+                                                    type="submit"
+                                                    id="submitBtn"
+                                                    class="btn btn-primary"
+                                                >
+                                                    Xem
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <div class="row mt-1 hidden" id="bangthanso">
+                        <div class="col-lg-4">
+                            <div class="">
+                                <div class="text-center">
+                                    <span class="fs-6 fw-bold"
+                                        >Số Chủ Đạo
+
+                                        <button
+                                            class="btn btn-secondary hidden btn-sm"
+                                            id="showform"
+                                        >
+                                            Quay Lại
+                                        </button></span
+                                    >
+                                </div>
+
+                                <div class="row text-center mt-3">
+                                    <style>
+                                        /* Container holding the image and the text */
+                                        .customStyle {
+                                            position: relative;
+                                            text-align: center;
+                                            color: #1140ae;
+                                            animation: zoom-in-zoom-out 1s ease
+                                                infinite;
+                                        }
+
+                                        /* Centered text */
+                                        .customTextCentered {
+                                            position: absolute;
+                                            top: 50%;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                        }
+
+                                        @keyframes zoom-in-zoom-out {
+                                            0% {
+                                                transform: scale(1, 1);
+                                            }
+
+                                            50% {
+                                                transform: scale(1.01, 1.01);
+                                            }
+
+                                            100% {
+                                                transform: scale(1, 1);
+                                            }
+                                        }
+                                    </style>
+                                    <div class="col-12 text-center customStyle">
+                                        <!-- <img
+                                            src="../assets/img/khung.png"
+                                            alt=""
+                                            style="
+                                                width: 45%;
+                                                transform: translateX(60%);
+                                            "
+                                        /> -->
+                                        <div
+                                            class="display-1 customTextCentered"
+                                            id="finalSoDuongDoi"
+                                        ></div>
+                                    </div>
+                                    <div class="col-12 mt-3 mb-2">
+                                        <h4
+                                            style="color: #1140ae"
+                                            id="hoVaTen"
+                                            class="text-uppercase"
+                                        ></h4>
+                                        <h6
+                                            style="color: #1140ae"
+                                            id="tacY"
+                                            class="text-uppercase"
+                                        ></h6>
+                                        <h6
+                                            style="color: #1140ae"
+                                            id="sinhNhat"
+                                        ></h6>
+                                        <p style="color: #1140ae">
+                                            Năm Thế Giới:
+                                            <span
+                                                class="fw-bold"
+                                                id="namTheGioi"
+                                            ></span
+                                            ><br />
+                                            Năm Cá Nhân:
+                                            <span
+                                                class="fw-bold"
+                                                id="namCaNhan"
+                                            ></span
+                                            ><br />
+                                            Tháng Cá Nhân:
+                                            <span
+                                                class="fw-bold"
+                                                id="thangCaNhan"
+                                            ></span
+                                            ><br />
+                                            Ngày Cá Nhân:
+                                            <span
+                                                class="fw-bold"
+                                                id="ngayCaNhan"
+                                            ></span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-8">
+                            <table
+                                class="min-w-full border-collapse border border-zinc-200"
+                            >
+                                <thead>
+                                    <tr>
+                                        <th
+                                            class="border border-zinc-200 p-2 text-left"
+                                        >
+                                            PASS TSH
+                                        </th>
+                                        <th
+                                            class="border border-zinc-200 p-2"
+                                            colspan="3"
+                                        >
+                                            beli9212159
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold text-red-500"
+                                        >
+                                            Họ Tên
+                                        </td>
+                                        <td
+                                        id="hoVaTen1"
+                                            class="border border-zinc-200 p-2 font-bold text-blue-500"
+                                            colspan="3"
+                                        >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold text-red-500"
+                                        >
+                                            Tên Thường Gọi
+                                        </td>
+                                        <td 
+                                        
+                                            id="tenThuongGoi"
+                                            class="border border-zinc-200 p-2 font-bold text-blue-500"
+                                            colspan="3"
+                                        >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold text-red-500"
+                                        >
+                                            Ngày Sinh
+                                        </td>
+                                        <td
+                                        id="ngaySinh"
+                                            class="border border-zinc-200 p-2 font-bold text-blue-500"
+                                            colspan="3"
+                                        >
+                                            
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border border-zinc-200 p-2">
+                                            Ngày Hiện Tại
+                                        </td>
+                                        <td
+                                            class="border border-zinc-200 p-2"
+                                            colspan="3"
+                                            id="ngayHienTai"
+                                        >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold text-pink-500"
+                                            colspan="4"
+                                        >
+                                            CHỈ SỐ THẤU HIỂU BẢN THÂN
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2"
+                                        ></td>
+                                        <td
+                                        class="border border-zinc-200 p-2 font-bold"
+                                    >
+                                        CHỈ SỐ 
+                                    </td>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold"
+                                        >
+                                            DỌC (bài học)
+                                        </td>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold"
+                                        >
+                                            NGANG (tiềm năng)
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold text-red-500"
+                                        >
+                                            Đường đời
+                                        </td>
+                                        <td
+                                        id="duongDoi_ChiSo"
+                                        class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td
+                                        id="duongDoi_Doc"
+                                        class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td
+                                        id="duongDoi_Ngang"
+                                        class="border border-zinc-200 p-2">
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold text-red-500"
+                                        >
+                                            Sứ mệnh lớn
+                                        </td>
+                                        <td
+                                        id="suMenhLon_ChiSo"
+                                         class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td
+                                        id="suMenhLon_Doc"
+                                         class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td 
+                                        id="suMenhLon_Ngang"
+                                        class="border border-zinc-200 p-2">
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold"
+                                        >
+                                            Kết nối
+                                        </td>
+                                        <td 
+                                        id="ketNoi_ChiSo"
+                                        class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td
+                                            id="ketNoi_Doc"
+                                        class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td 
+                                        id="ketNoi_Ngang"
+                                        class="border border-zinc-200 p-2">
+                                        </td>
+                                       
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold"
+                                        >
+                                            TRƯỞNG THÀNH
+                                        </td>
+                                        <td id="truongThanh_ChiSo" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td 
+                                            id="truongThanh_Doc"
+                                        class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="truongThanh_Ngang" class="border border-zinc-200 p-2">
+                                        </td>
+                                      
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold text-red-500"
+                                        >
+                                            Linh hồn nhỏ
+                                        </td>
+                                        <td id="linhHonNho_ChiSo" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="linhHonNho_Doc" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="linhHonNho_Ngang" class="border border-zinc-200 p-2">
+                                        </td>
+                                       
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold text-red-500"
+                                        >
+                                            Nhân cách nhỏ
+                                        </td>
+                                        <td id="nhanCachNho_ChiSo" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="nhanCachNho_Doc" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="nhanCachNho_Ngang" class="border border-zinc-200 p-2">
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold text-red-500"
+                                        >
+                                            Sứ mệnh nhỏ
+                                        </td>
+                                        <td id="soMenhNho_ChiSo" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="soMenhNho_Doc" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="soMenhNho_Ngang" class="border border-zinc-200 p-2">
+                                        </td>
+                                       
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold text-blue-500"
+                                        >
+                                            Ngày sinh
+                                        </td>
+                                        <td
+                                            id="ngaySinh_ChiSo" class="border border-zinc-200 p-2 bg-red-500 text-white"
+                                        >
+                                        </td>
+                                        <td
+                                        id="ngaySinh_Doc" class="border border-zinc-200 p-2 bg-yellow-500"
+                                        >
+                                        </td>
+                                        <td
+                                            id="ngaySinh_Ngang" class="border border-zinc-200 p-2 bg-red-500 text-white"
+                                        >
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold"
+                                        >
+                                            Tư duy hợp lý
+                                        </td>
+                                        <td id="tuDuyHopLy_ChiSo" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="tuDuyHopLy_Doc" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="tuDuyHopLy_Ngang" class="border border-zinc-200 p-2">
+                                        </td>
+                                     
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold"
+                                        >
+                                            Thiếu
+                                        </td>
+                                        <td id="thieu"
+                                            class="border border-zinc-200 p-2 text-center"
+                                            colspan="3"
+                                        >
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold"
+                                        >
+                                            Phản hồi tiềm thức
+                                        </td>
+                                        <td id="phanHoiTiemThuc_ChiSo" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="phanHoiTiemThuc_Doc" colspan="2" class="border text-center border-zinc-200 p-2">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold"
+                                        >
+                                            Điểm bảo mật
+                                        </td>
+                                        <td id="diemBaoMat_ChiSo" 
+                                            class="text-center border border-zinc-200 p-2 bg-red-500 text-white"
+                                        >
+                                        </td>
+                                        <td id="diemBaoMat" colspan="2"
+                                            class="text-center border border-zinc-200 p-2 bg-red-500 text-white"
+                                        >
+                                        </td>
+                                      
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold text-pink-500"
+                                        >
+                                            Linh hồn lớn
+                                        </td>
+                                        <td id="linhHonLon_ChiSo" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="linhHonLon_Doc" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="linhHonLon_Ngang" class="border border-zinc-200 p-2">
+                                        </td>
+                                    </tr>
+                                   
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold text-red-500"
+                                        >
+                                            Nhân cách lớn
+                                        </td>
+                                        <td id="nhanCachLon_ChiSo" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="nhanCachLon_Doc" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="nhanCachLon_Ngang" class="border border-zinc-200 p-2">
+                                        </td>
+                                        
+                                    </tr>
+                                    <tr>
+                                        <td
+                                            class="border border-zinc-200 p-2 font-bold text-red-500"
+                                        >
+                                            Sứ mệnh lớn
+                                        </td>
+                                        <td
+                                            id="soMenhLon_ChiSo" class="border border-zinc-200 p-2 bg-red-500 text-white"
+                                        >
+                                        </td>
+                                        <td id="soMenhLon_Doc" class="border border-zinc-200 p-2">
+                                        </td>
+                                        <td id="soMenhLon_Ngang" class="border border-zinc-200 p-2">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="../../code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script
+            src="../../cdn.jsdelivr.net/npm/bootstrap%405.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+        <script src="../assets/js/validatef731.js?v=5.0"></script>
+        <script src="../assets/js/functionf731.js?v=5.0"></script>
+        <script src="./index.js"></script>
+    </body>
+</html>
