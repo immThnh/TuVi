@@ -1223,10 +1223,16 @@ $(document).ready(function () {
         resetData();
 
         //! ---------- Xử lý input -----------
-        var hoVaTen = transferNameToUnMarked($("#hoTen").val());
-        var tenThuongGoi = transferNameToUnMarked(
-            $("#inputTenThuongGoi").val()
-        );
+        var hoVaTen = $("#hoTen").val();
+        var tenThuongGoi = $("#inputTenThuongGoi").val();
+        
+        // update ui name
+        $("#hoVaTen").html(hoVaTen);
+        $("#tenThuongGoi1").html(tenThuongGoi);
+        $("#hoVaTen2").html(hoVaTen);
+       
+        hoVaTen = transferNameToUnMarked(hoVaTen);
+        tenThuongGoi = transferNameToUnMarked(tenThuongGoi);
         var inputNgay = $("#ngay").val();
         var inputThang = $("#thang").val();
         var inputNam = $("#nam").val();
@@ -1450,9 +1456,7 @@ $(document).ready(function () {
         //! ----------END Xử lý dữ liệu -----------
 
         //! ---------- Hiển thị dữ liệu -----------
-        $("#hoVaTen").html(hoVaTen);
-        $("#tenThuongGoi1").html(tenThuongGoi);
-        $("#hoVaTen2").html(hoVaTen);
+
         $("#ngaySinh").html(sinhNhat);
         if (hasRedColor(sinhNhat))
             $("#ngaySinh").addClass("text-white bg-red-500");
