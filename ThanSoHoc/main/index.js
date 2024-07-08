@@ -1098,7 +1098,6 @@ const soulPlan_Process_UpdateUI = (name) => {
         }
     }
 
-
     tinhThanTaiNang > 22
         ? (tinhThanTaiNang1 = transferDayToNumber(tinhThanTaiNang))
         : (tinhThanTaiNang1 = tinhThanTaiNang);
@@ -1362,7 +1361,7 @@ $(document).ready(function () {
         var thuThach1 = thuThach1_Doc + " - " + thuThach1_Ngang;
         var thuThach2_Doc = bonThuThach[1];
         var thuThach2_Ngang = transferHaiChuSoThanhMotChuSo(
-            Math.abs(arrDate[0] - getMaxNumberInDate(arrDate[2]))
+            transferDayToNumber(Math.abs(arrDate[0] - arrDate[2]))
         );
         var thuThach2 = thuThach2_Doc + " - " + thuThach2_Ngang;
         var thuThach3_Doc = bonThuThach[2];
@@ -1372,7 +1371,7 @@ $(document).ready(function () {
         var thuThach3 = thuThach3_Doc + " - " + thuThach3_Ngang;
         var thuThach4_Doc = bonThuThach[3];
         var thuThach4_Ngang = transferHaiChuSoThanhMotChuSo(
-            Math.abs(arrDate[1] - getMaxNumberInDate(arrDate[2]))
+            transferDayToNumber(Math.abs(arrDate[0] - arrDate[2]))
         );
         var thuThach4 = thuThach4_Doc + " - " + thuThach4_Ngang;
 
