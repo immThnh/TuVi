@@ -1,0 +1,33 @@
+.hidden {
+    display: none;
+}
+
+body {
+    font-size: 14px;
+    color: #4c5258;
+    letter-spacing: 0.5px;
+    background: #f7f7ff;
+    overflow-x: hidden;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.square-table td[colspan="4"] {
+    width: calc(80% / 5) !important;
+}
+
+.square-table,
+.square-table-header {
+    height: calc(320px / 5);
+    width: 320px;
+}
+
+.square-table td {
+    width: calc(320px / 5);
+    height: calc(320px / 5);
+    border: 1px solid #ccc;
+    text-align: center;
+}
